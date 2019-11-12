@@ -7,4 +7,5 @@ void printf(char* str)
 }
    extern "C" void kernelMain(void* multiboot_struture,unsigned int magicN){
 	printf("hello! Team X");
+	while(1);
 }
