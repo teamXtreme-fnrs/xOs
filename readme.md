@@ -10,7 +10,7 @@ commands for installation into /boot/mykernel.bin:
 
 
 
-edit the /boot/grub/grub.cfg:
+add these codes into /boot/grub/grub.cfg:
 
     ### BEGIN MYKERNEL###
     menuentry 'xOs'{
